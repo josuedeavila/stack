@@ -11,7 +11,7 @@ type Stack[T any] struct {
 	items []T
 }
 
-// New creates and returns a new stack
+// New creates and returns a new stack. It accepts zero or more arguments of type T.
 func New[T any](i ...T) *Stack[T] {
 	if i != nil {
 		return &Stack[T]{items: i, mu: sync.Mutex{}}
