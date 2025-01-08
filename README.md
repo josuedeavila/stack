@@ -1,5 +1,7 @@
 # stack
 
+![coverage](https://raw.githubusercontent.com/josuedeavila/stack/badges/.badges/main/coverage.svg)
+
 A concurrent-safe LIFO (Last In, First Out) stack implementation in Go using generics. This package provides a flexible and type-safe stack that supports basic operations like pushing and popping elements, as well as concurrent access using synchronization mechanisms.
 Features
 
