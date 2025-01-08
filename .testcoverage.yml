@@ -1,0 +1,21 @@
+profile: cover.out
+local-prefix: github.com/josuedeavila/stack
+
+# Holds coverage thresholds percentages, values should be in range [0-100]
+threshold:
+  # (optional; default 0)
+  # The minimum coverage that each file should have
+  file: 70
+
+  # (optional; default 0)
+  # The minimum coverage that each package should have
+  package: 70
+
+  # (optional; default 0)
+  # The minimum total coverage project should have
+  total: 85
+
+exclude:
+  # Exclude files or packages matching their paths
+  paths:
+    - ^example
